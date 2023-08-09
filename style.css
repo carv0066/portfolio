@@ -1,3 +1,9 @@
+:root {
+    /* Colors */
+    --primary: #C0DFA1;
+    --secondary: #011936;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -11,12 +17,73 @@ h5,
 h6,
 p {
     font-family: montserrat;
-    font-size: 12px;
 }
 
 
 li,
 a {
     font-family: roboto;
-    font-weight: 800;
 }
+
+/* Nav bar */
+
+.nav-pills .nav-link {
+    color: var(--secondary);
+
+}
+/* Adding a color to the active page on my navbar */
+.nav-pills .nav-link.active {
+    background-color: var(--primary);
+    color: var(--secondary);
+    border: 2px solid var(--primary);
+}
+
+.navpill {
+    border: 2px solid white;
+}
+/* Adding a border unto the inactive pages in the navbar */
+.navpill:hover,
+.navpill:focus {
+    border: 2px solid var(--secondary);
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler:hover{
+    border: none; 
+    box-shadow: none;
+    padding: 8px 10px 8px 10px;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:active {
+    background-color: var(--primary);
+    padding: 8px 10px 8px 10px;
+    border-radius: 1000px;
+}
+
+
+/* Hero Section */
+
+.btn-primary {
+    background-color: var(--primary);
+    color: black;
+    border: none;
+}
+
+
+.btn-primary:focus,
+.btn-primary:hover {
+    background-color: var(--secondary)!important;
+}
+
+.hero-image {
+    width: 100% ;
+}
+
+.bg-body-primary {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+

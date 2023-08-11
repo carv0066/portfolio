@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -7,48 +7,206 @@
   <title>Carlos Carvajal Portfolio</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,700;0,800;1,600&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <!-- Nav Bar -->  
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-md fixed-top bg-white shadow-sm">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="images/logo.svg" alt="logo of website" width="148px" height="41px">
+        <img src="images/logo.svg" alt="logo of website" width="148" height="41">
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fa-solid fa-bars" style="color: #011936;"></i></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        <ul class="navbar-nav nav-pills ms-auto">
+          <li class="nav-item p-2">
+            <a class="nav-pill nav-link rounded-pill px-4 py-3" href="index.html">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+          <li class="nav-item p-2">
+            <a class="navpill nav-link rounded-pill px-4 py-3" href="about.html">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          <li class="nav-item p-2">
+            <a class="nav-link active rounded-pill px-4 py-3" href="portfolio.html">Portfolio</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li> 
+          <li class="nav-item p-2">
+            <a class="navpill nav-link rounded-pill px-4 py-3" href="contact.html">Contact</a>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
+  <div class="py-5"></div>
 
 
   <!-- Hero Section -->
-  <h1>Portfolio</h1>
 
-  <!-- Short project description  -->
+  <header class=" container mb-3 border border-0 pt-md-5 pb-5">
+    <div class="row g-5 ">
+      <div class="col-md-12">
+        <div class="card-body p-1 pt-lg-5 ">
+          <div class="card-title display-6 fw-semibold text-center py-4 px-lg-4">
+            <h1>Projects</h1>
+          </div>
+          <div class=" card-body">
+            <p class="card-text lh-lg fw-normal py-4 px-lg-5">
+              Welcome to my projects page, where creativity and technology intertwine to bring you a collection of captivating web experiences. From beautifully designed websites to innovative UI/UX concepts, each project reflects my passion for web development and design. Explore the showcase of my digital endeavors, and let's embark on a journey of inspiration and innovation together!
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Short project section descriptions  -->
+  <main>
+
+    <div class=" container mb-3 border border-0 pt-md-5 pb-md-5">
+      <div class="row g-5 p-5 p-md-2">
+        <div class="col-md-6 text-center order-md-1">
+          <img src="images/star-media-project.png" class="img-fluid rounded-4 float-end pt-md-5" alt="hero image of desktop">
+        </div>
+        <div class="col-md-6">
+          <div class="card-body p-1 float-start">
+            <div class="card-title display-6 fw-semibold text-center text-md-start pt-3">
+              <h2>Three Star Media</h2>
+            </div>
+            <div class="card-body">
+              <p class="card-text lh-lg fw-normal py-4">
+                Unveil the artistry of web design through this mesmerizing HTML and CSS showcase for Three Star Media. Let's embark on a journey of creativity and innovation!
+              </p>
+              <ul class="list-styles ms-5">
+                <li><p class="card-text lh-lg fw-normal py-4">Immerse yourself in captivating visuals, compelling narratives, and vibrant animations, meticulously crafted for Three Star Media's website.</p></li>
+                <li><p class="card-text lh-lg fw-normal py-4">Immerse yourself in captivating visuals, compelling narratives, and vibrant animations, meticulously crafted for Three Star Media's website.</p></li>
+              </ul>  
+            </div>
+            <div class="text-center text-md-start pt-5 pt-md-3">
+              <a class="btn btn-primary btn-lg rounded-3 fs-6" href="project-starmedia.html">read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class=" container mb-3 border border-0 pt-md-5 pb-md-5">
+      <div class="row g-5 p-5 p-md-2">
+        <div class="col-md-6 text-center order-md-0">
+          <img src="images/starfish-project.png" class="hero-image img-fluid rounded-4 float-start pt-md-5" alt="hero image of desktop">
+        </div>
+        <div class="col-md-6">
+          <div class="card-body p-1 float-end">
+            <div class="card-title display-6 fw-semibold text-center text-md-start pt-3">
+              <h2>The Lone Starfish</h2>
+            </div>
+            <div class="card-body">
+              <p class="card-text lh-lg fw-normal py-4">
+                Immerse yourself in the artistry of web design through this delightful starfish-themed project, crafted with HTML and CSS. Let's embark on a journey of creativity and enchantment!
+              </p>
+              <ul class="list-styles ms-5">
+                <li><p class="card-text lh-lg fw-normal py-4">Dive into a charming world of captivating visuals and playful text wrapping around the starfish image.</p></li>
+                <li><p class="card-text lh-lg fw-normal py-4">Experience the seamless elegance of a small business showcase website, creatively brought to life.</p></li>
+              </ul>  
+            </div>
+            <div class="text-center text-md-start pt-5 pt-md-3">
+              <a class="btn btn-primary btn-lg rounded-3 fs-6" href="project-starfish.html">read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class=" container mb-3 border border-0 pt-md-5 pb-md-5">
+      <div class="row g-5 p-5 p-md-2">
+        <div class="col-md-6 text-center order-md-1">
+          <img src="images/United-Nations-project.png" class="hero-image img-fluid rounded-4 float-end pt-md-5" alt="hero image of desktop">
+        </div>
+        <div class="col-md-6">
+          <div class="card-body p-1 float-start">
+            <div class="card-title display-6 fw-semibold text-center text-md-start pt-3">
+              <h2>United Nations Campaign</h2>
+            </div>
+            <div class="card-body">
+              <p class="card-text lh-lg fw-normal py-4">
+                Discover the captivating United Nations-inspired project, skillfully crafted using HTML and CSS. Let's embark on a journey of innovation and global impact!
+              </p>
+              <ul class="list-styles ms-5">
+                <li><p class="card-text lh-lg fw-normal py-4">Explore stunning grid layouts that flawlessly adapt to mobile and desktop screens, elevating the user experience.</p></li>
+                <li><p class="card-text lh-lg fw-normal py-4">Engage with a captivating mobile banner and a distinct desktop banner, commanding attention and invoking curiosity.</p></li>
+              </ul>  
+            </div>
+            <div class="text-center text-md-start pt-5 pt-md-3">
+              <a class="btn btn-primary btn-lg rounded-3 fs-6" href="project-united-nations.html">read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class=" container mb-3 border border-0 pt-md-5 pb-md-5">
+      <div class="row g-5 p-5 p-md-2">
+        <div class="col-md-6 text-center order-md-0">
+          <img src="images/background-generator.png" class="hero-image img-fluid rounded-4 float-start pt-md-4" alt="hero image of desktop">
+        </div>
+        <div class="col-md-6">
+          <div class="card-body p-1 float-end">
+            <div class="card-title display-6 fw-semibold text-center text-md-start pt-0 pb-5 pb-md-0">
+              <h2>Background Color Generator</h2>
+            </div>
+            <div class="card-body">
+              <p class="card-text lh-lg fw-normal py-md-4">
+                Step into the world of colors with this dynamic background color generator, skillfully developed using JavaScript. Let's embark on a journey of creativity and endless possibilities!
+              </p>
+              <ul class="list-styles ms-5">
+                <li><p class="card-text lh-lg fw-normal py-4">Explore a user-friendly interface where you can create custom color palettes to suit your taste and style.</p></li>
+                <li><p class="card-text lh-lg fw-normal py-4">Experience the real-time magic as the background changes with every click, inspiring your imagination.</p></li>
+              </ul>  
+            </div>
+            <div class="text-center text-md-start pt-5 pt-md-3">
+              <a class="btn btn-primary btn-lg rounded-3 fs-6" href="project-background-generator.html">read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </main>
+
 
 
   <!-- Footer -->
+  <div>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center border-top p-5 footer-color">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-white">© Copyright 2023 - All right Received</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-white" href="#"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+        <li class="ms-3"><a class="text-white" href="#"><i class="fa-brands fa-square-twitter fa-2xl"></i></a></li>
+        <li class="ms-3"><a class="text-white" href="#"><i class="fa-brands fa-github fa-2xl"></i></a></li>
+      </ul>
+    </footer>
+  </div>
+
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">

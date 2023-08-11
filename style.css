@@ -2,6 +2,7 @@
     /* Colors */
     --primary: #C0DFA1;
     --secondary: #011936;
+    --tertiary:#3366CC;
 }
 
 body {
@@ -17,12 +18,12 @@ h5,
 h6,
 p {
     font-family: montserrat;
+    color: var(--secondary);
 }
 
-
-li,
 a {
     font-family: roboto;
+    color: var(--tertiary);
 }
 
 /* Nav bar */
@@ -66,9 +67,11 @@ a {
 
 /* Hero Section */
 
+/* Changing the colors of buttons in different states */
+
 .btn-primary {
     background-color: var(--primary);
-    color: black;
+    color: var(--secondary);
     border: none;
 }
 
@@ -78,12 +81,32 @@ a {
     background-color: var(--secondary)!important;
 }
 
-.hero-image {
-    width: 100% ;
+.horizontal-divider {
+    border: 12px solid var(--secondary);
+    opacity: 100%;
 }
 
-.bg-body-primary {
-    background-color: var(--primary);
-    color: var(--secondary);
+/* Project Section */
+
+
+.list-styles{
+    list-style-type: disc; /* Adding back the circle that belong on the unordered list for each item */
 }
 
+.custom-link.text-body-tertiary {
+    color: var(--tertiary);
+}
+
+
+/* Contact Section*/
+
+.contact-form {
+    padding-bottom: 100px; /* Increasing the padding at the end to the page so it doesn't look as short*/
+}
+
+
+/* Footer Section */
+
+.footer-color {
+    background-color: var(--secondary);  /* Modyfing the color for the footer section only  */
+}

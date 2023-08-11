@@ -22,9 +22,9 @@
   <div class="container">
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-md fixed-top bg-white shadow-sm" role="navigation">
-      <div class="container-fluid">
+      <div class="container-fluid" itemscope itemtype="https://schema.org/Logo">
         <a class="navbar-brand" href="index.html">
-          <img src="images/logo.svg" alt="logo of website" width="148" height="41">
+          <img src="images/logo.svg" alt="logo of website" width="148" height="41" itemprop="logo">
         </a>
 
         <!-- Skip Links -->
@@ -35,22 +35,22 @@
           <li><a href="#footer">Skip to the footer</a></li>
         </ul>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+          aria-controls="navbar Content" aria-expanded="false" aria-label="Toggle navigation">
           <span><i class="fa-solid fa-bars" style="color: #011936;"></i></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav nav-pills ms-auto">
-            <li class="nav-item p-2">
+          <ul class="navbar-nav nav-pills ms-auto" itemtype="https://schema.org/Person">
+            <li class="nav-item p-2" itemprop="name">
               <a class="nav-pill nav-link rounded-pill px-4 py-3" href="index.html">Home</a>
             </li>
-            <li class="nav-item p-2">
+            <li class="nav-item p-2" itemprop="email">
               <a class="navpill nav-link rounded-pill px-4 py-3" href="about.html">About</a>
             </li>
-            <li class="nav-item p-2">
+            <li class="nav-item p-2" itemprop="text">
               <a class="navpill nav-link rounded-pill px-4 py-3" href="portfolio.html">Portfolio</a>
             </li>
-            <li class="nav-item p-2">
+            <li class="nav-item p-2" itemprop="text">
               <a class="navpill nav-link active rounded-pill px-4 py-3" href="contact.html">Contact</a>
             </li>
           </ul>
@@ -61,15 +61,15 @@
 
 
     <!-- Hero Section -->
-    <header class=" container mb-3 border border-0 pt-md-5 pb-5" role="banner">
+    <header class=" container mb-3 border border-0 pt-md-5 pb-5" role="banner" itemscope itemtype="https://schema.org/BlogPosting">
       <div class="row g-5 ">
         <div class="col-md-12">
           <div class="card-body p-1 pt-lg-5 ">
             <div class="card-title display-6 fw-semibold text-center py-4 px-lg-4">
-              <h1 role="heading">Contact me</h1>
+              <h1 role="heading" itemprop="name">Contact me</h1>
             </div>
             <div class=" card-body">
-              <p class="card-text lh-lg fw-normal py-4 px-lg-5">
+              <p class="card-text lh-lg fw-normal py-4 px-lg-5" itemprop="text">
                 Hey there! I'm super excited to hear from you! My contact page is the perfect spot to share your awesome
                 ideas and dreams. Don't hold back – spill the beans and let's bring your creative vision to life
                 together!
@@ -83,7 +83,7 @@
     </header>
 
     <!-- Contact Form  -->
-    <main role="main">
+    <main role="main"itemscope itemtype="https://schema.org/HotelRoom https://schema.org/Product">
 
       <div class="container">
         <div class="row contact-form">
@@ -91,22 +91,22 @@
             <form>
               <div class="mb-3">
                 <label for="name" class="form-label nav-link ">Name</label>
-                <input type="text" class="form-control opacity-50" id="name" name="name" placeholder="full name" required>
+                <input type="text" class="form-control opacity-50" id="name" name="name" placeholder="full name" itemprop="name" required>
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control opacity-50" id="email" name="email" placeholder="example@email.com" required>
+                <input type="email" class="form-control opacity-50" id="email" name="email" placeholder="example@email.com" itemprop="email" required>
               </div>
               <div class="mb-3">
                 <label for="subject" class="form-label">Subject</label>
-                <input type="text" class="form-control opacity-50" id="subject" name="subject" placeholder="Regarding: Project Inquiry"  required>
+                <input type="text" class="form-control opacity-50" id="subject" name="subject" placeholder="Regarding: Project Inquiry" itemprop="text"  required>
               </div>
               <div class="mb-3">
                 <label for="message" class="form-label">Message</label>
-                <textarea class="form-control opacity-50" id="message" name="message" rows="5" placeholder="write your message" required></textarea>
+                <textarea class="form-control opacity-50" id="message" name="message" rows="5" placeholder="write your message"itemprop="text" required></textarea>
               </div>
               <div class="d-grid gap-2">
-                <button type="submit" aria-label="submit" class="btn btn-primary btn-lg fs-5">Send</button>
+                <button type="submit" aria-label="submit" class="btn btn-primary btn-lg fs-5" itemprop="button">Send</button>
               </div>
             </form>
           </div>
@@ -127,7 +127,7 @@
             <use xlink:href="#bootstrap"></use>
           </svg>
         </a>
-        <span class="mb-3 mb-md-0 text-white">© Copyright 2023 - All right Received</span>
+        <span class="mb-3 mb-md-0 text-white" itemprop="copyrightNotice">© Copyright 2023 - All right Received</span>
       </div>
 
       <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">

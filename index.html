@@ -22,9 +22,9 @@
   <!-- Nav Bar -->
   <div class="container" id="top">
   <nav class="navbar navbar-expand-md fixed-top bg-white shadow-sm" id="nav" role="navigation">
-    <div class="container-fluid">
+    <div class="container-fluid" itemscope itemtype="https://schema.org/Logo">
       <a class="navbar-brand" href="index.html">
-        <img src="images/logo.svg" alt="logo of website" width="148" height="41">
+        <img src="images/logo.svg" alt="logo of website" width="148" height="41" itemprop="logo">
       </a>
       <!-- Skip Links -->
       <ul class="skip-links">
@@ -63,16 +63,16 @@
 
   <header class=" container mb-3 border border-0 pt-md-5 pb-5" id="header" role="banner">
     <div class="row g-5 p-5 p-md-2">
-      <div class="col-md-6 col-lg-5 text-center order-md-1 pb-5">
-        <img src="images/hero-image-me.jpeg" class="hero-image img-fluid rounded-4" alt="hero image of desktop">
+      <div class="col-md-6 col-lg-5 text-center order-md-1 pb-5" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="images/hero-image-me.jpeg" class="hero-image img-fluid rounded-4" alt="hero image of desktop"  itemprop="photo">
       </div>
       <div class="col-md-6 col-lg-7">
         <div class="card-body p-1 pt-lg-5">
-          <div class="card-title display-6 fw-semibold text-center text-md-start pt-4 pt-md-1">
-            <h1 role="heading">Welcome!</h1>
+          <div class="card-title display-6 fw-semibold text-center text-md-start pt-4 pt-md-1" itemscope itemtype="https://schema.org/Person">
+            <h1 role="heading"  itemprop="name">Welcome!</h1>
           </div>
           <div class="card-body">
-            <p class="card-text lh-lg fw-normal py-4">
+            <p class="card-text lh-lg fw-normal py-4" itemprop="disambiguatingDescription">
               Greetings! I'm Carlos Carvajal, a dedicated web developer, and I'm thrilled to present my web developer
               portfolio. Here, you'll find a captivating collection of projects that exemplify my passion for creating
               visually stunning and functional websites.
@@ -90,16 +90,16 @@
   </header>
 
   <!-- Short project section descriptions  -->
-  <main id="main" role="main">
+  <main id="main" role="main" itemscope itemtype="https://schema.org/BlogPosting">
 
     <div>
-      <h2 class="card-title display-6 fw-semibold text-center pt-3 pb-md-5 ">Featured Projects</h2>
+      <h2 class="card-title display-6 fw-semibold text-center pt-3 pb-md-5" itemprop="name">Featured Projects</h2>
     </div>
 
     <div class=" container mb-3 border border-0 pt-md-5 pb-md-5">
       <div class="row g-5 p-5 p-md-2">
-        <div class="col-md-6 text-center order-md-1">
-          <img src="images/star-media.png" class="hero-image img-fluid rounded-4 float-end" alt="hero image of desktop">
+        <div class="col-md-6 text-center order-md-1" itemscope itemtype="https://schema.org/ImageObject">
+          <img src="images/star-media.png" class="hero-image img-fluid rounded-4 float-end" alt="hero image of desktop" itemprop="photo">
         </div>
         <div class="col-md-6">
           <div class="card-body p-1 float-start">
@@ -107,7 +107,7 @@
               <h2>Three Star Media</h2>
             </div>
             <div class="card-body">
-              <p class="card-text lh-lg fw-normal py-4">
+              <p class="card-text lh-lg fw-normal py-4" itemprop="description">
                 Unveil the artistry of web design through this mesmerizing HTML and CSS showcase. Dive into a seamless
                 blend of captivating visuals, compelling narratives, and vibrant animations, all meticulously crafted
                 for a small business website. Embrace the magic of HTML and CSS, and let's transform your digital vision
@@ -121,9 +121,9 @@
 
     <div class=" container mb-3 border border-0 pt-md-5 pb-md-5">
       <div class="row g-5 p-5 p-md-2">
-        <div class="col-md-6 text-center order-md-0">
+        <div class="col-md-6 text-center order-md-0" itemscope itemtype="https://schema.org/ImageObject">
           <img src="images/lone-starfish-index.png" class="hero-image img-fluid rounded-4 float-start"
-            alt="hero image of desktop">
+            alt="hero image of desktop" itemprop="photo">
         </div>
         <div class="col-md-6">
           <div class="card-body float-end">
@@ -131,7 +131,7 @@
               <h2>The Lone Starfish</h2>
             </div>
             <div class="card-body">
-              <p class="card-text lh-lg fw-normal py-4">
+              <p class="card-text lh-lg fw-normal py-4" itemprop="description">
                 Dive into this fun and casual starfish-themed project, all made possible with the magic of HTML and CSS.
                 Watch as the text playfully wraps around the starfish image, adding a touch of quirky charm. Don't
                 forget to take a moment to explore the contact section and share your thoughts – let's float away on a
@@ -145,9 +145,9 @@
 
     <div class=" container mb-3 border border-0 pt-md-5 pb-md-5">
       <div class="row g-5 p-5 p-md-2">
-        <div class="col-md-6 text-center order-md-1">
+        <div class="col-md-6 text-center order-md-1" itemscope itemtype="https://schema.org/ImageObject">
           <img src="images/united-nations-index.png" class="hero-image img-fluid rounded-4 float-end"
-            alt="hero image of desktop">
+            alt="hero image of desktop" itemprop="photo">
         </div>
         <div class="col-md-6">
           <div class="card-body p-1 float-start">
@@ -155,7 +155,7 @@
               <h2>United Nations Campaign</h2>
             </div>
             <div class="card-body">
-              <p class="card-text lh-lg fw-normal py-4">
+              <p class="card-text lh-lg fw-normal py-4" itemprop="description">
                 Welcome to my United Nations-inspired showcase, a testament to the power of HTML and CSS. Immerse
                 yourself in a stunning display of grid layouts that perfectly adapt to both mobile and desktop screens.
                 Join me on this web journey, where the world unites through design and technology, demonstrating my
@@ -166,7 +166,7 @@
         </div>
       </div>
     </div>
-    <a href="top" >Back to Top</a>
+    <a href="#top" >Back to Top</a>
   </main>
 
 
@@ -180,7 +180,7 @@
             <use xlink:href="#bootstrap"></use>
           </svg>
         </a>
-        <span class="mb-3 mb-md-0 text-white">© Copyright 2023 - All right Received</span>
+        <span class="mb-3 mb-md-0 text-white" itemprop="copyrightNotice">© Copyright 2023 - All right Received</span>
       </div>
 
       <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">

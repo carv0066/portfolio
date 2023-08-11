@@ -22,9 +22,9 @@
   <div class="container" id="top">
   <!-- Nav Bar -->
   <nav class="navbar navbar-expand-md fixed-top bg-white shadow-sm" role="navigation">
-    <div class="container-fluid">
+    <div class="container-fluid" itemscope itemtype="https://schema.org/Logo">
       <a class="navbar-brand" href="index.html">
-        <img src="images/logo.svg" alt="logo of website" width="148" height="41" >
+        <img src="images/logo.svg" alt="logo of website" width="148" height="41" itemprop="logo">
       </a>
 
       <!-- Skip Links -->
@@ -62,18 +62,18 @@
 
   <!-- About me section -->
 
-  <header class=" container mb-3 border border-0 pt-md-5 pb-5" role="banner">
+  <header class=" container mb-3 border border-0 pt-md-5 pb-5" role="banner" itemscope itemtype="https://schema.org/BlogPosting">
     <div class="row g-5 ">
       <div class="col-md-12">
         <div class="card-body p-1 pt-lg-5 ">
           <div class="card-title display-6 fw-semibold text-center py-4 px-lg-4">
-            <h1 role="heading">About Me</h1>
+            <h1 role="heading"  itemprop="name">About Me</h1>
           </div>
-          <div class=" card-body">
-            <p class="card-text lh-lg fw-normal py-4 px-lg-5">
+          <div class=" card-body" itemprop="articleBody">
+            <p class="card-text lh-lg fw-normal py-4 px-lg-5" itemprop="text">
             Welcome to my little corner of the internet! I'm thrilled to have you here. Aspiring to be a versatile tech wizard, I'm currently pursuing the IMD program at College Number 1, where I'm diving headfirst into the captivating world of web development and design.Ever since I discovered the magic of coding, I've been on an exhilarating journey of constant learning and growth. From crafting elegant websites with HTML, CSS, and JavaScript to bringing visual wonders to life with Adobe XD, Illustrator, and Photoshop, I find myself utterly captivated by the endless possibilities that technology offers.
           </p>
-          <p class="card-text lh-lg fw-normal py-4 px-lg-5">
+          <p class="card-text lh-lg fw-normal py-4 px-lg-5" itemprop="text">
             With each project, I'm driven by the desire to create digital experiences that not only look great but also leave a lasting impact on users.I believe that learning never stops, and my journey as a tech enthusiast is just getting started. So, let's embark on this adventure together, exploring the realms of creativity and innovation. Join me as I grow, stumble, and succeed on this exhilarating path of becoming a web developer and designer.
           </p>
           </div>
@@ -86,7 +86,7 @@
   </header>
 
   <!-- Skill list section  -->
-  <main role="main">
+  <main role="main" itemscope itemtype="https://schema.org/BlogPosting">
 
     <div class=" container mb-3 border border-0 pt-md-5 pb-5">
       <div class="row g-5 ">
@@ -95,57 +95,57 @@
             <div class="card-title display-6 fw-semibold text-center py-4">
               Skills
             </div>
-            <div class=" card-body">
-              <p class="card-text lh-lg fw-normal py-4">
+            <div class=" card-body" itemprop="articleBody">
+              <p class="card-text lh-lg fw-normal py-4" itemprop="text">
                 My most recent skills revolve around mastering web development with HTML, CSS, and JavaScript, as well as UI/UX design using Adobe XD, Illustrator, and Photoshop.
             </p>
             </div>
             <!-- Created a grid system to have all my skills, it goes from showing one skill on mobile screen to two skills on tablet to three skills on desktop at the same time -->
             <div class="row">
-              <div class="col-12 col-md-6 col-lg-4 py-5">
-                <img src="images/wed-dev-new.svg" class="bd-placeholder-img rounded-circle mx-auto d-block" width="140" height="140" alt="web dev icon" aria-label="icon">
+              <div class="col-12 col-md-6 col-lg-4 py-5" itemtype="https://schema.org/ImageObject">
+                <img src="images/wed-dev-new.svg" class="bd-placeholder-img rounded-circle mx-auto d-block" width="140" height="140" alt="web dev icon" aria-label="icon"  itemprop="contentUrl">
                 <h2 class="fw-bold text-center py-3">Front-end Web Development</h2>
-                <p class="text-center">Proficiency in HTML, CSS, and JavaScript to create visually appealing and interactive websites</p>
+                <p class="text-center" itemprop="description">Proficiency in HTML, CSS, and JavaScript to create visually appealing and interactive websites</p>
               </div>
-              <div class="col-12 col-md-6 col-lg-4 py-5">
-                <img src="images/ux-design-new.svg" class="bd-placeholder-img rounded-circle mx-auto d-block" width="140" height="140" alt="ux design icon" aria-label="icon">
+              <div class="col-12 col-md-6 col-lg-4 py-5"itemtype="https://schema.org/ImageObject">
+                <img src="images/ux-design-new.svg" class="bd-placeholder-img rounded-circle mx-auto d-block" width="140" height="140" alt="ux design icon" aria-label="icon"  itemprop="contentUrl">
                 <h2 class="fw-bold text-center py-3">UI/UX Design</h2>
-                <p class="text-center">Expertise in Adobe XD, crafting intuitive user interfaces for seamless digital experiences</p>
+                <p class="text-center" itemprop="description">Expertise in Adobe XD, crafting intuitive user interfaces for seamless digital experiences</p>
               </div>
-              <div class="col-12 col-md-6 col-lg-4 py-5">
-                <img src="images/drupal-new.svg" class="bd-placeholder-img rounded-circle mx-auto d-block" width="140" height="140" alt="drupal icon" aria-label="icon">
+              <div class="col-12 col-md-6 col-lg-4 py-5" itemtype="https://schema.org/ImageObject">
+                <img src="images/drupal-new.svg" class="bd-placeholder-img rounded-circle mx-auto d-block" width="140" height="140" alt="drupal icon" aria-label="icon"  itemprop="contentUrl">
                 <h2 class="fw-bold text-center py-3">Drupal</h2>
-                <p class="text-center">Familiarity with Drupal, enabling efficient content management and customization for web projects.</p>
+                <p class="text-center" itemprop="description">Familiarity with Drupal, enabling efficient content management and customization for web projects.</p>
               </div>
-              <div class="col-12 col-md-6 col-lg-4 py-5">
-                <img src="images/responsive-design-new.svg" class="bd-placeholder-img rounded-circle mx-auto d-block" width="140" height="140" alt="responsive design icon" aria-label="icon">
+              <div class="col-12 col-md-6 col-lg-4 py-5" itemtype="https://schema.org/ImageObject">
+                <img src="images/responsive-design-new.svg" class="bd-placeholder-img rounded-circle mx-auto d-block" width="140" height="140" alt="responsive design icon" aria-label="icon"  itemprop="contentUrl">
                 <h2 class="fw-bold text-center py-3">Responsive Design</h2>
-                <p class="text-center">Ensuring websites adapt flawlessly across various devices and screen sizes.</p>
+                <p class="text-center" itemprop="description">Ensuring websites adapt flawlessly across various devices and screen sizes.</p>
               </div>
-              <div class="col-12 col-md-6 col-lg-4 py-5">
-                <img src="images/cross-browser-new.svg" class="bd-placeholder-img rounded-circle mx-auto d-block" width="140" height="140" alt="cross-browser compatibility icon" aria-label="icon">
+              <div class="col-12 col-md-6 col-lg-4 py-5" itemtype="https://schema.org/ImageObject">
+                <img src="images/cross-browser-new.svg" class="bd-placeholder-img rounded-circle mx-auto d-block" width="140" height="140" alt="cross-browser compatibility icon" aria-label="icon"  itemprop="contentUrl">
                 <h2 class="fw-bold text-center py-3">Cross-browser Compatibility</h2>
-                <p class="text-center">Ensuring websites function smoothly on different browsers for optimal accessibility.</p>
+                <p class="text-center" itemprop="description">Ensuring websites function smoothly on different browsers for optimal accessibility.</p>
               </div>
-              <div class="col-12 col-md-6 col-lg-4 py-5">
-                <img src="images/wordpress-new.svg" class="bd-placeholder-img rounded-circle mx-auto d-block" width="140" height="140" alt="wordpress icon" aria-label="icon">
+              <div class="col-12 col-md-6 col-lg-4 py-5" itemtype="https://schema.org/ImageObject">
+                <img src="images/wordpress-new.svg" class="bd-placeholder-img rounded-circle mx-auto d-block" width="140" height="140" alt="wordpress icon" aria-label="icon"  itemprop="contentUrl">
                 <h2 class="fw-bold text-center py-3">Wordpress</h2>
-                <p class="text-center">Experience in building and managing websites using the popular WordPress platform.</p>
+                <p class="text-center" itemprop="description">Experience in building and managing websites using the popular WordPress platform.</p>
               </div>
-              <div class="col-12 col-md-6 col-lg-4 py-5">
-                <img src="images/version-control-new.svg" class="bd-placeholder-img rounded-circle mx-auto d-block" width="140" height="140" alt="version control icon" aria-label="icon">
+              <div class="col-12 col-md-6 col-lg-4 py-5" itemtype="https://schema.org/ImageObject">
+                <img src="images/version-control-new.svg" class="bd-placeholder-img rounded-circle mx-auto d-block" width="140" height="140" alt="version control icon" aria-label="icon"  itemprop="contentUrl">
                 <h2 class="fw-bold text-center py-3">Version Control</h2>
-                <p class="text-center"> Experience with Git, facilitating collaboration and tracking code changes.</p>
+                <p class="text-center" itemprop="description"> Experience with Git, facilitating collaboration and tracking code changes.</p>
               </div>
-              <div class="col-12 col-md-6 col-lg-4 py-5">
-                <img src="images/creativity-new.svg" class="bd-placeholder-img rounded-circle mx-auto d-block" width="140" height="140" alt="problem solving & creativity icon" aria-label="icon">
+              <div class="col-12 col-md-6 col-lg-4 py-5" itemtype="https://schema.org/ImageObject">
+                <img src="images/creativity-new.svg" class="bd-placeholder-img rounded-circle mx-auto d-block" width="140" height="140" alt="problem solving & creativity icon" aria-label="icon"  itemprop="contentUrl">
                 <h2 class="fw-bold text-center py-3">Problem-solving & Creativity</h2>
-                <p class="text-center"> Tackling challenges with innovative solutions, infusing creativity into every project.</p>
+                <p class="text-center" itemprop="description"> Tackling challenges with innovative solutions, infusing creativity into every project.</p>
               </div>
-              <div class="col-12 col-md-6 col-lg-4 py-5">
-                <img src="images/frameworks-new.svg" class="bd-placeholder-img rounded-circle mx-auto d-block" width="140" height="140" alt="responsive web frameworks icon" aria-label="icon">
+              <div class="col-12 col-md-6 col-lg-4 py-5" itemtype="https://schema.org/ImageObject">
+                <img src="images/frameworks-new.svg" class="bd-placeholder-img rounded-circle mx-auto d-block" width="140" height="140" alt="responsive web frameworks icon" aria-label="icon"  itemprop="contentUrl">
                 <h2 class="fw-bold text-center py-3">Responsive Web Frameworks</h2>
-                <p class="text-center">Proficient in using popular responsive web frameworks like Bootstrap.</p>
+                <p class="text-center" itemprop="description">Proficient in using popular responsive web frameworks like Bootstrap.</p>
               </div>
               
               
@@ -168,7 +168,7 @@
         <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
           <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
         </a>
-        <span class="mb-3 mb-md-0 text-white">© Copyright 2023 - All right Received</span>
+        <span class="mb-3 mb-md-0 text-white" itemprop="copyrightNotice">© Copyright 2023 - All right Received</span>
       </div>
   
       <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">

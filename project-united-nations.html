@@ -43,16 +43,20 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav nav-pills ms-auto">
                             <li class="nav-item p-2">
-                                <a class="nav-pill nav-link rounded-pill px-4 py-3" href="index.html">Home</a>
+                                <a class="nav-pill nav-link rounded-pill px-4 py-3 btn-animated"
+                                    href="index.html">Home</a>
                             </li>
                             <li class="nav-item p-2">
-                                <a class="navpill nav-link rounded-pill px-4 py-3" href="about.html">About</a>
+                                <a class="navpill nav-link rounded-pill px-4 py-3 btn-animated"
+                                    href="about.html">About</a>
                             </li>
                             <li class="nav-item p-2">
-                                <a class="nav-link active rounded-pill px-4 py-3" href="portfolio.html">Portfolio</a>
+                                <a class="nav-link active rounded-pill px-4 py-3 btn-animated"
+                                    href="portfolio.html">Portfolio</a>
                             </li>
                             <li class="nav-item p-2">
-                                <a class="navpill nav-link rounded-pill px-4 py-3" href="contact.html">Contact</a>
+                                <a class="navpill nav-link rounded-pill px-4 py-3 btn-animated"
+                                    href="contact.html">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -115,9 +119,17 @@
                             </p>
                             <div>
                                 <div itemscope itemtype="https://schema.org/ImageObject">
-                                    <img src="images/united-nations-big.png"
-                                        class=" col-12 col-md-12 text-center order-2 mt-4 pt-5"
-                                        alt="Screenshot of the project" itemprop="image">
+                                    <!-- Adding the picture element for responsive image sizes -->
+                                    <picture class="hero-image img-fluid rounded-4">
+                                        <source srcset="images/united-nations-each-desktop.svg" type="image/svg+xml"
+                                            media="(min-width: 992px)">
+                                        <source srcset="images/united-nations-each-tablet.svg" type="image/svg+xml"
+                                            media="(min-width: 768px)">
+                                        <source srcset="images/united-nations-each-mobile.svg" type="image/svg+xml"
+                                            media="(max-width: 767px)">
+                                        <img src="images/united-nations-each-desktop.svg" alt="hero image of desktop"
+                                            class="mx-auto d-block" itemprop="image">
+                                    </picture>
                                 </div>
                                 <div>
                                     <a class="ink-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover mb-5 pb-5"

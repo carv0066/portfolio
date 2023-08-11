@@ -2,7 +2,7 @@
     /* Colors */
     --primary: #C0DFA1;
     --secondary: #011936;
-    --tertiary:#3366CC;
+    --tertiary: #3366CC;
 }
 
 body {
@@ -32,6 +32,7 @@ a {
     color: var(--secondary);
 
 }
+
 /* Adding a color to the active page on my navbar */
 .nav-pills .nav-link.active {
     background-color: var(--primary);
@@ -42,6 +43,7 @@ a {
 .navpill {
     border: 2px solid white;
 }
+
 /* Adding a border unto the inactive pages in the navbar */
 .navpill:hover,
 .navpill:focus {
@@ -51,8 +53,8 @@ a {
 .navbar-toggler,
 .navbar-toggler:focus,
 .navbar-toggler:active,
-.navbar-toggler:hover{
-    border: none; 
+.navbar-toggler:hover {
+    border: none;
     box-shadow: none;
     padding: 8px 10px 8px 10px;
 }
@@ -78,54 +80,95 @@ a {
 
 .btn-primary:focus,
 .btn-primary:hover {
-    background-color: var(--secondary)!important;
+    background-color: var(--secondary) !important;
 }
+
 
 .horizontal-divider {
     border: 12px solid var(--secondary);
     opacity: 100%;
 }
 
+.btn-animated {
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn-animated:hover {
+    transform: translateY(-5px);
+    /*Animation so that when i hover on the button it moves up a little */
+}
+
+
+
+
+
+/* About me section */
+
+.zoomable-image {
+    transition: transform 0.3s ease-in-out;
+}
+
+.zoomable-image:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
 /* Project Section */
 
 
-.list-styles{
-    list-style-type: disc; /* Adding back the circle that belong on the unordered list for each item */
+.list-styles {
+    list-style-type: disc;
+    /* Adding back the circle that belong on the unordered list for each item */
 }
 
 .custom-link.text-body-tertiary {
     color: var(--tertiary);
 }
 
+
+
+
+
 /* Contact Section*/
 
 .contact-form {
-    padding-bottom: 100px; /* Increasing the padding at the end to the page so it doesn't look as short*/
+    padding-bottom: 100px;
+    /* Increasing the padding at the end to the page so it doesn't look as short*/
 }
+
+
+
 
 
 /* Footer Section */
 
 .footer-color {
-    background-color: var(--secondary);  /* Modyfing the color for the footer section only  */
+    background-color: var(--secondary);
+    /* Modyfing the color for the footer section only  */
 }
 
 /* Skip links */
 
-.skip-links{
-    list-style: none;/*Styling the skip links so they stay accesible but don't look bad on a my portfolio*/
+.skip-links {
+    list-style: none;
+    /*Styling the skip links so they stay accesible but don't look bad on a my portfolio*/
     margin: 0;
     padding: 0;
 }
-.skip-links a{
+
+.skip-links a {
     position: absolute;
     top: -3em;
     background-color: black;
-    color:white;
+    color: white;
     padding: .5em 1em;
     font-weight: bold;
 }
 
-.skip-links a:focus{
+.skip-links a:focus {
     top: 0;
 }

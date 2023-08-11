@@ -20,11 +20,20 @@
 <body>
 
   <!-- Nav Bar -->
-  <nav class="navbar navbar-expand-md fixed-top bg-white shadow-sm">
+  <div class="container" id="top">
+  <nav class="navbar navbar-expand-md fixed-top bg-white shadow-sm" id="nav">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="index.html">
         <img src="images/logo.svg" alt="logo of website" width="148" height="41">
       </a>
+      <!-- Skip Links -->
+      <ul class="skip-links">
+        <li><a href="#nav">Skip to main nav</a></li>
+        <li><a href="#header">Skip to header of the page</a></li>
+        <li><a href="#main">Skip to main content</a></li>
+        <li><a href="#footer">Skip to the footer</a></li>
+      </ul>
+
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span><i class="fa-solid fa-bars" style="color: #011936;"></i></span>
@@ -52,7 +61,7 @@
 
   <!-- Hero Section -->
 
-  <header class=" container mb-3 border border-0 pt-md-5 pb-5">
+  <header class=" container mb-3 border border-0 pt-md-5 pb-5" id="header">
     <div class="row g-5 p-5 p-md-2">
       <div class="col-md-6 col-lg-5 text-center order-md-1 pb-5">
         <img src="images/hero-image-me.jpeg" class="hero-image img-fluid rounded-4" alt="hero image of desktop">
@@ -64,9 +73,9 @@
           </div>
           <div class="card-body">
             <p class="card-text lh-lg fw-normal py-4">
-            Greetings! I'm Carlos Carvajal, a dedicated web developer, and I'm thrilled to present my web developer
-            portfolio. Here, you'll find a captivating collection of projects that exemplify my passion for creating
-            visually stunning and functional websites.
+              Greetings! I'm Carlos Carvajal, a dedicated web developer, and I'm thrilled to present my web developer
+              portfolio. Here, you'll find a captivating collection of projects that exemplify my passion for creating
+              visually stunning and functional websites.
             </p>
           </div>
           <div class="text-center text-md-start pt-5 pt-md-3">
@@ -81,7 +90,7 @@
   </header>
 
   <!-- Short project section descriptions  -->
-  <main>
+  <main id="main">
 
     <div>
       <h1 class="card-title display-6 fw-semibold text-center pt-3 pb-md-5 ">Featured Projects</h1>
@@ -99,7 +108,10 @@
             </div>
             <div class="card-body">
               <p class="card-text lh-lg fw-normal py-4">
-              Unveil the artistry of web design through this mesmerizing HTML and CSS showcase. Dive into a seamless blend of captivating visuals, compelling narratives, and vibrant animations, all meticulously crafted for a small business website. Embrace the magic of HTML and CSS, and let's transform your digital vision into an enchanting reality.
+                Unveil the artistry of web design through this mesmerizing HTML and CSS showcase. Dive into a seamless
+                blend of captivating visuals, compelling narratives, and vibrant animations, all meticulously crafted
+                for a small business website. Embrace the magic of HTML and CSS, and let's transform your digital vision
+                into an enchanting reality.
               </p>
             </div>
           </div>
@@ -110,7 +122,8 @@
     <div class=" container mb-3 border border-0 pt-md-5 pb-md-5">
       <div class="row g-5 p-5 p-md-2">
         <div class="col-md-6 text-center order-md-0">
-          <img src="images/lone-starfish-index.png" class="hero-image img-fluid rounded-4 float-start" alt="hero image of desktop">
+          <img src="images/lone-starfish-index.png" class="hero-image img-fluid rounded-4 float-start"
+            alt="hero image of desktop">
         </div>
         <div class="col-md-6">
           <div class="card-body float-end">
@@ -119,7 +132,10 @@
             </div>
             <div class="card-body">
               <p class="card-text lh-lg fw-normal py-4">
-              Dive into this fun and casual starfish-themed project, all made possible with the magic of HTML and CSS. Watch as the text playfully wraps around the starfish image, adding a touch of quirky charm. Don't forget to take a moment to explore the contact section and share your thoughts – let's float away on a web journey that's both relaxing and delightful!
+                Dive into this fun and casual starfish-themed project, all made possible with the magic of HTML and CSS.
+                Watch as the text playfully wraps around the starfish image, adding a touch of quirky charm. Don't
+                forget to take a moment to explore the contact section and share your thoughts – let's float away on a
+                web journey that's both relaxing and delightful!
               </p>
             </div>
           </div>
@@ -130,7 +146,8 @@
     <div class=" container mb-3 border border-0 pt-md-5 pb-md-5">
       <div class="row g-5 p-5 p-md-2">
         <div class="col-md-6 text-center order-md-1">
-          <img src="images/united-nations-index.png" class="hero-image img-fluid rounded-4 float-end" alt="hero image of desktop">
+          <img src="images/united-nations-index.png" class="hero-image img-fluid rounded-4 float-end"
+            alt="hero image of desktop">
         </div>
         <div class="col-md-6">
           <div class="card-body p-1 float-start">
@@ -139,28 +156,33 @@
             </div>
             <div class="card-body">
               <p class="card-text lh-lg fw-normal py-4">
-              Welcome to my United Nations-inspired showcase, a testament to the power of HTML and CSS. Immerse yourself in a stunning display of grid layouts that perfectly adapt to both mobile and desktop screens. Join me on this web journey, where the world unites through design and technology, demonstrating my prowess with grids and responsive web elements. Let's together create a brighter digital future for all!
+                Welcome to my United Nations-inspired showcase, a testament to the power of HTML and CSS. Immerse
+                yourself in a stunning display of grid layouts that perfectly adapt to both mobile and desktop screens.
+                Join me on this web journey, where the world unites through design and technology, demonstrating my
+                prowess with grids and responsive web elements. Let's together create a brighter digital future for all!
               </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-
+    <a href="top">Back to Top</a>
   </main>
 
 
-
+</div>
   <!-- Footer -->
-  <div>
+  <div id="footer">
     <footer class="d-flex flex-wrap justify-content-between align-items-center border-top p-5 footer-color">
       <div class="col-md-4 d-flex align-items-center">
         <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          <svg class="bi" width="30" height="24">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
         </a>
         <span class="mb-3 mb-md-0 text-white">© Copyright 2023 - All right Received</span>
       </div>
-  
+
       <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
         <li class="ms-3"><a class="text-white" href="#"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
         <li class="ms-3"><a class="text-white" href="#"><i class="fa-brands fa-square-twitter fa-2xl"></i></a></li>

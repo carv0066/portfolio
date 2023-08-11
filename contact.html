@@ -19,92 +19,103 @@
 
 <body>
 
-  <!-- Nav Bar -->
-  <nav class="navbar navbar-expand-md fixed-top bg-white shadow-sm">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="images/logo.svg" alt="logo of website" width="148" height="41">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span><i class="fa-solid fa-bars" style="color: #011936;"></i></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav nav-pills ms-auto">
-          <li class="nav-item p-2">
-            <a class="nav-pill nav-link rounded-pill px-4 py-3" href="index.html">Home</a>
-          </li>
-          <li class="nav-item p-2">
-            <a class="navpill nav-link rounded-pill px-4 py-3" href="about.html">About</a>
-          </li>
-          <li class="nav-item p-2">
-            <a class="navpill nav-link rounded-pill px-4 py-3" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item p-2">
-            <a class="navpill nav-link active rounded-pill px-4 py-3" href="contact.html">Contact</a>
-          </li>
+  <div class="container">
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-md fixed-top bg-white shadow-sm">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.svg" alt="logo of website" width="148" height="41">
+        </a>
+
+        <!-- Skip Links -->
+        <ul class="skip-links">
+          <li><a href="#nav">Skip to main nav</a></li>
+          <li><a href="#header">Skip to header of the page</a></li>
+          <li><a href="#main">Skip to main content</a></li>
+          <li><a href="#footer">Skip to the footer</a></li>
         </ul>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="fa-solid fa-bars" style="color: #011936;"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav nav-pills ms-auto">
+            <li class="nav-item p-2">
+              <a class="nav-pill nav-link rounded-pill px-4 py-3" href="index.html">Home</a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="navpill nav-link rounded-pill px-4 py-3" href="about.html">About</a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="navpill nav-link rounded-pill px-4 py-3" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="navpill nav-link active rounded-pill px-4 py-3" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-  <div class="py-5"></div>
+    </nav>
+    <div class="py-5"></div>
 
 
-  <!-- Hero Section -->
-  <header class=" container mb-3 border border-0 pt-md-5 pb-5">
-    <div class="row g-5 ">
-      <div class="col-md-12">
-        <div class="card-body p-1 pt-lg-5 ">
-          <div class="card-title display-6 fw-semibold text-center py-4 px-lg-4">
-            <h1>Contact me</h1>
-          </div>
-          <div class=" card-body">
-            <p class="card-text lh-lg fw-normal py-4 px-lg-5">
-              Hey there! I'm super excited to hear from you! My contact page is the perfect spot to share your awesome
-              ideas and dreams. Don't hold back – spill the beans and let's bring your creative vision to life together!
-              Just fill out the form, hit that "send" button, and we'll make some seriously cool magic happen! Can't
-              wait to hear from you!
-            </p>
+    <!-- Hero Section -->
+    <header class=" container mb-3 border border-0 pt-md-5 pb-5">
+      <div class="row g-5 ">
+        <div class="col-md-12">
+          <div class="card-body p-1 pt-lg-5 ">
+            <div class="card-title display-6 fw-semibold text-center py-4 px-lg-4">
+              <h1>Contact me</h1>
+            </div>
+            <div class=" card-body">
+              <p class="card-text lh-lg fw-normal py-4 px-lg-5">
+                Hey there! I'm super excited to hear from you! My contact page is the perfect spot to share your awesome
+                ideas and dreams. Don't hold back – spill the beans and let's bring your creative vision to life
+                together!
+                Just fill out the form, hit that "send" button, and we'll make some seriously cool magic happen! Can't
+                wait to hear from you!
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <!-- Contact Form  -->
-  <main>
+    <!-- Contact Form  -->
+    <main>
 
-    <div class="container">
-      <div class="row contact-form">
-        <div class="col-md-8 mx-auto pb-5">
-          <form>
-            <div class="mb-3">
-              <label for="name" class="form-label nav-link">Name</label>
-              <input type="text" class="form-control" id="name" name="name" required>
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="email" name="email" required>
-            </div>
-            <div class="mb-3">
-              <label for="subject" class="form-label">Subject</label>
-              <input type="text" class="form-control" id="subject" name="subject" required>
-            </div>
-            <div class="mb-3">
-              <label for="message" class="form-label">Message</label>
-              <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
-            </div>
-            <div class="d-grid gap-2">
-            <button type="submit" class="btn btn-primary btn-lg fs-5">Send</button>
+      <div class="container">
+        <div class="row contact-form">
+          <div class="col-md-8 mx-auto pb-5">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label nav-link">Name</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+              </div>
+              <div class="mb-3">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" class="form-control" id="subject" name="subject" required>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+              </div>
+              <div class="d-grid gap-2">
+                <button type="submit" class="btn btn-primary btn-lg fs-5">Send</button>
+              </div>
+            </form>
           </div>
-          </form>
         </div>
       </div>
-    </div>
-    
 
-  </main>
-
+      <a href="#top">Back to Top</a>
+    </main>
+  </div>
 
 
   <!-- Footer -->

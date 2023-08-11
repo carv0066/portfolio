@@ -32,6 +32,12 @@ This is my Web Development Portfolio in here I showcase the skills and projects 
 - **Bootstap**: I learned a lot more about how to use everything that bootsrap has to offer. In the beginning of the project I struggled a lot when it came to understanding how the bootstrap classes were supposed to be used and it made me be stuck on things that I could have developed by coding it myself such as the nav bar, but after I continued using it to create everything on my page I noticed how easy it is once you understand it and how fast it let's you build websites.
 
 
+## Design Wireframes
+
+I created wireframes to plan the design of my website. You can view the wireframes by clicking the links below:
+
+- [Wireframes](wireframes/carvajal_Carlos_hi-fi.pdf)
+
 
 ## Resources Used
 

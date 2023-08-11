@@ -21,7 +21,7 @@
 
   <div class="container">
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-md fixed-top bg-white shadow-sm">
+    <nav class="navbar navbar-expand-md fixed-top bg-white shadow-sm" role="navigation">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
           <img src="images/logo.svg" alt="logo of website" width="148" height="41">
@@ -61,12 +61,12 @@
 
 
     <!-- Hero Section -->
-    <header class=" container mb-3 border border-0 pt-md-5 pb-5">
+    <header class=" container mb-3 border border-0 pt-md-5 pb-5" role="banner">
       <div class="row g-5 ">
         <div class="col-md-12">
           <div class="card-body p-1 pt-lg-5 ">
             <div class="card-title display-6 fw-semibold text-center py-4 px-lg-4">
-              <h1>Contact me</h1>
+              <h1 role="heading">Contact me</h1>
             </div>
             <div class=" card-body">
               <p class="card-text lh-lg fw-normal py-4 px-lg-5">
@@ -83,30 +83,30 @@
     </header>
 
     <!-- Contact Form  -->
-    <main>
+    <main role="main">
 
       <div class="container">
         <div class="row contact-form">
           <div class="col-md-8 mx-auto pb-5">
             <form>
               <div class="mb-3">
-                <label for="name" class="form-label nav-link">Name</label>
-                <input type="text" class="form-control" id="name" name="name" required>
+                <label for="name" class="form-label nav-link ">Name</label>
+                <input type="text" class="form-control opacity-50" id="name" name="name" placeholder="full name" required>
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" name="email" required>
+                <input type="email" class="form-control opacity-50" id="email" name="email" placeholder="example@email.com" required>
               </div>
               <div class="mb-3">
                 <label for="subject" class="form-label">Subject</label>
-                <input type="text" class="form-control" id="subject" name="subject" required>
+                <input type="text" class="form-control opacity-50" id="subject" name="subject" placeholder="Regarding: Project Inquiry"  required>
               </div>
               <div class="mb-3">
                 <label for="message" class="form-label">Message</label>
-                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                <textarea class="form-control opacity-50" id="message" name="message" rows="5" placeholder="write your message" required></textarea>
               </div>
               <div class="d-grid gap-2">
-                <button type="submit" class="btn btn-primary btn-lg fs-5">Send</button>
+                <button type="submit" aria-label="submit" class="btn btn-primary btn-lg fs-5">Send</button>
               </div>
             </form>
           </div>
@@ -120,7 +120,7 @@
 
   <!-- Footer -->
   <div>
-    <footer class="d-flex flex-wrap justify-content-between align-items-center border-top p-5 footer-color">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center border-top p-5 footer-color" role="contentinfo">
       <div class="col-md-4 d-flex align-items-center">
         <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
           <svg class="bi" width="30" height="24">

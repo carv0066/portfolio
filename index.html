@@ -103,12 +103,15 @@
         <div class="row g-5 p-5 p-md-2">
           <div class=" text-center col-md-6 order-md-1 d-flex justify-content-center align-items-center" itemscope itemtype="https://schema.org/ImageObject">
             <!-- Adding the picture element for responsive image sizes -->
-            <img srcset="images/star-media-mobile.png 320w,
-                        images/star-media-tablet.png 768w,
-                        images/star-media-desktop.png 992w"
-                sizes="(min-width: 768px) 50vw, 100vw"
-                src="images/star-media-desktop.png" alt="hero image of desktop" itemprop="image"
-                class="hero-image img-fluid rounded-4">
+            <picture class="hero-image img-fluid rounded-4">
+              <source srcset="images/star-media-desktop.svg" 
+                      media="(min-width: 992px)">
+              <source srcset="images/star-media-tablet.svg" 
+                      media="(min-width: 768px)">
+              <source srcset="images/star-media-mobile.svg" 
+                      media="(max-width: 767px)">
+              <img src="images/star-media-desktop.svg" alt="hero image of desktop" itemprop="image">
+            </picture>
           </div>
           <div class="col-md-6">
             <div class="card-body p-1 float-start">

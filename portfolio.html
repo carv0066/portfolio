@@ -63,7 +63,7 @@
   <!-- Hero Section -->
 
   <header class=" container mb-3 border border-0 pt-md-5 pb-5" role="banner">
-    <div class="row g-5 ">
+    <div class="row g-5 p-5 p-md-2">
       <div class="col-md-12">
         <div class="card-body p-1 pt-lg-5 ">
           <div class="card-title display-6 fw-semibold text-center py-4 px-lg-4">
@@ -84,8 +84,17 @@
 
     <div class=" container mb-3 border border-0 pt-md-5 pb-md-5">
       <div class="row g-5 p-5 p-md-2">
-        <div class="col-md-6 text-center order-md-1" itemscope itemtype="https://schema.org/ImageObject">
-          <img src="images/star-media-project.png" class="img-fluid rounded-4 float-end pt-md-5" alt="hero image of desktop" itemprop="image">
+        <div class="col-md-6 text-center order-md-1 d-flex justify-content-center justify-content-md-end align-items-center px-0 pe-md-5" itemscope itemtype="https://schema.org/ImageObject">
+          <!-- Adding the picture element for responsive image sizes -->
+          <picture class="hero-image img-fluid rounded-4">
+            <source srcset="images/star-media-project-desktop.svg" type="image/svg+xml"
+                    media="(min-width: 992px)">
+            <source srcset="images/star-media-project-tablet.svg" type="image/svg+xml"
+                    media="(min-width: 768px)">
+            <source srcset="images/star-media-project-mobile.svg" type="image/svg+xml" 
+                    media="(max-width: 767px)">
+            <img src="images/star-media-project-desktop.svg" alt="hero image of desktop" itemprop="image">
+          </picture>
         </div>
         <div class="col-md-6">
           <div class="card-body p-1 float-start">
@@ -110,12 +119,22 @@
     </div>
 
     
-    <div class=" container mb-3 border border-0 pt-md-5 pb-md-5">
+  
+    <div class="container mb-3 border border-0 pt-md-5 pb-md-5">
       <div class="row g-5 p-5 p-md-2">
-        <div class="col-md-6 text-center order-md-0" itemscope itemtype="https://schema.org/ImageObject">
-          <img src="images/starfish-project.png" class="hero-image img-fluid rounded-4 float-start pt-md-5" alt="hero image of desktop" itemprop="image">
+        <div class="col-md-6 text-center order-md-1 d-flex justify-content-center justify-content-md-start align-items-center px-0 pe-md-5 float-md-start" itemscope itemtype="https://schema.org/ImageObject">
+          <!-- Adding the picture element for responsive image sizes -->
+          <picture class="hero-image img-fluid rounded-4">
+            <source srcset="images/midterm-starfish-desktop.svg" type="image/svg+xml"
+                    media="(min-width: 992px)">
+            <source srcset="images/midterm-starfish-tablet.svg" type="image/svg+xml"
+                    media="(min-width: 768px)">
+            <source srcset="images/midterm-starfish-mobile.svg" type="image/svg+xml" 
+                    media="(max-width: 767px)">
+            <img src="images/midterm-starfish-desktop.svg" alt="hero image of desktop" itemprop="image">
+          </picture>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 order-2">
           <div class="card-body p-1 float-end">
             <div class="card-title display-6 fw-semibold text-center text-md-start pt-3">
               <h2>The Lone Starfish</h2>
@@ -140,8 +159,17 @@
     
     <div class=" container mb-3 border border-0 pt-md-5 pb-md-5">
       <div class="row g-5 p-5 p-md-2">
-        <div class="col-md-6 text-center order-md-1" itemscope itemtype="https://schema.org/ImageObject">
-          <img src="images/United-Nations-project.png" class="hero-image img-fluid rounded-4 float-end pt-md-5" alt="hero image of desktop" itemprop="image">
+        <div class="col-md-6 text-center order-md-1 d-flex justify-content-center justify-content-md-end align-items-center px-0 pe-md-5" itemscope itemtype="https://schema.org/ImageObject">
+          <!-- Adding the picture element for responsive image sizes -->
+          <picture class="hero-image img-fluid rounded-4">
+            <source srcset="images/united-nations-project-desktop.svg" type="image/svg+xml"
+                    media="(min-width: 992px)">
+            <source srcset="images/united-nations-project-tablet.svg" type="image/svg+xml"
+                    media="(min-width: 768px)">
+            <source srcset="images/united-nations-project-mobile.svg" type="image/svg+xml" 
+                    media="(max-width: 767px)">
+            <img src="images/united-nations-project-desktop.svg" alt="hero image of desktop" itemprop="image">
+          </picture>
         </div>
         <div class="col-md-6">
           <div class="card-body p-1 float-start">
@@ -165,14 +193,23 @@
       </div>
     </div>
 
-    <div class=" container mb-3 border border-0 pt-md-5 pb-md-5">
+    <div class="container mb-3 border border-0 pt-md-5 pb-md-5">
       <div class="row g-5 p-5 p-md-2">
-        <div class="col-md-6 text-center order-md-0" itemscope itemtype="https://schema.org/ImageObject">
-          <img src="images/background-generator.png" class="hero-image img-fluid rounded-4 float-start pt-md-4" alt="hero image of desktop" itemprop="image">
+        <div class="col-md-6 text-center order-md-1 d-flex justify-content-center justify-content-md-start align-items-center px-0 pe-md-5 float-md-start" itemscope itemtype="https://schema.org/ImageObject">
+          <!-- Adding the picture element for responsive image sizes -->
+          <picture class="hero-image img-fluid rounded-4">
+            <source srcset="images/background-generator-project-desktop.svg" type="image/svg+xml"
+                    media="(min-width: 992px)">
+            <source srcset="images/background-generator-project-tablet.svg" type="image/svg+xml"
+                    media="(min-width: 768px)">
+            <source srcset="images/background-generator-project-mobile.svg" type="image/svg+xml" 
+                    media="(max-width: 767px)">
+            <img src="images/background-generator-project-desktop.svg" alt="hero image of desktop" itemprop="image">
+          </picture>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 order-2">
           <div class="card-body p-1 float-end">
-            <div class="card-title display-6 fw-semibold text-center text-md-start pt-0 pb-5 pb-md-0">
+            <div class="card-title display-6 fw-semibold text-center text-md-start pt-3">
               <h2>Background Color Generator</h2>
             </div>
             <div class="card-body">
